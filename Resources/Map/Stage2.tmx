@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="50" tileheight="50" nextobjectid="12">
+ <tileset firstgid="1" name="ObjectLayer" tilewidth="50" tileheight="50" tilecount="240" columns="15">
+  <image source="Map/object/ObjectLayer.png" width="750" height="800"/>
+ </tileset>
+ <tileset firstgid="241" name="TileLayer" tilewidth="50" tileheight="50" tilecount="144" columns="12">
+  <image source="Map/TileLayer.png" width="600" height="600"/>
+ </tileset>
+ <tileset firstgid="385" name="TVlight" tilewidth="50" tileheight="50" tilecount="18" columns="6">
+  <image source="Map/TVlight.png" width="300" height="150"/>
+ </tileset>
+ <layer name="Way" width="40" height="40" opacity="0.26">
+  <data encoding="base64" compression="zlib">
+   eJzt1VEKgCAQRVFdYvvfTPQrKOabyZfcA/3FcIWxSgHyXXV3wRh9Gvo09Gno09Cnce+L9Jy19zjoddA3R+n7YieU/WvfWe3LOmdkX8ScrLmn9c3u5M6+lTmOfRH37u2cP3yznf/JAAA4uQFHcx4d
+  </data>
+ </layer>
+ <layer name="Radar_1" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt18EJADAMA7F0ue4/UodIAw5I4P99XcWEe/5Onz59+rb0AQAA0JP419K/pb65vgT6etL7Jj3m4Dtb
+  </data>
+ </layer>
+ <layer name="Radar_2" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEJADAIBEHTXPovKSVIEEIOZsCXnwXBKlLs1Y++/L7b3Ss/93U31NfTN6NvJuU/6wMAAIAsB0UbGGk=
+  </data>
+ </layer>
+ <layer name="Radar_3" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt0jEKACAMBMH4Of//JGstDKQKYRaun+IiJGXtda9b3X3Sr/e/3f7MN8OXOfj4+Pj4+Pj4+Gb5qlZJ0qwOmwRMRg==
+  </data>
+ </layer>
+ <layer name="Radar_4" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJACAQBMG3OfsvSYxFI4N7mIHNtwoAAICXOc6SdPxLekz9u30lvG3+/ujwBwBdLSjLDZg=
+  </data>
+ </layer>
+ <layer name="Radar_5" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJACAQBEFtzv5LMjLSRB7hhBnYfFsDAABSjb6XxF9N6t/py98dfzXpf8tvf6mfAPDKBPYlETM=
+  </data>
+ </layer>
+ <layer name="open_1" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENACAQA7FnUPZfg4KOCQ7JltJfmRmAf+11V1XvAwB41f9LvQ8AgI4D1ewC8Q==
+  </data>
+ </layer>
+ <layer name="open_2" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENACAQA7FnUPZfg4KOCQ7JltJfmRmAv+11V1XvAwB41f9LvQ8AgIYDyiwC8Q==
+  </data>
+ </layer>
+ <layer name="open_3" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIwDAQin8bHBjgIhxtsn8RAAAAcKdy+ur7HwAAOw0BrQF5
+  </data>
+ </layer>
+ <layer name="open_4" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIwDAQin8bHAjgIxxtsn8RAAAAcKty+ur7HwAAuwb7vgF5
+  </data>
+ </layer>
+ <layer name="open_5" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIwDAQin8bHJiA0Cb7FwEAAAAAf1ROW23/A7iiAVmEAXk=
+  </data>
+ </layer>
+ <layer name="open_6" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIBDEQin8bDAQPP7TJ7VcFAAAAAKSYvlKl/wG8BW51AXk=
+  </data>
+ </layer>
+ <layer name="NextFloor" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAEADDK6R9JA4fHYUuwCAAAAACAvcrrwcwPfmpp1gDW
+  </data>
+ </layer>
+ <layer name="Exit" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAEADDK6R9JAl6OLcEigEnl9WD3/QcAAAAAcKUBD5IAjw==
+  </data>
+ </layer>
+ <layer name="BulletCollision" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztlUsOgCAMRPGI3v8ybpWITDsdQexLXNHPQ0Ip5cq+zfG1GO2F+kWD1qz7W/3T795Pzep+6vNF+ZqfdZ3pi8Yp5nP6YXnpx/l5ST/eL/K+jfBjiPJja6v2+De/1pqX2f28PZnYKJCekXe9Vb/Xu5ePxHhZwY+9Q1HvB+Onni/MOdc1FPOZeYctNayuI/yeaiv26P0Xlpw3ST+OGd5NpDcboyL9OFSz/MwBwxWD+Q==
+  </data>
+ </layer>
+ <layer name="collisionCheak" width="40" height="40" opacity="0.47">
+  <data encoding="base64" compression="zlib">
+   eJztl0sOgCAMRPVw3v9Kxp0xKbTMTKnKJK764VmgwLa9T8c+9/PwKf6Z5VeJb7TGWXxZuo/bqkcVvogtY34tnh6fJ56tinyj82vlUvZUlC+qL/Ip+kvGmYnyqWMXnx3L6gUz+Bg5GHyWzZsDsfdiWXzV64fmsWIr83nG9fpl32FH9m8mQ5X9i+b9O5+1drzrqufHqB9Sx2cOxdmNnJ+RO0aUdUbPajEza49yMv3YWnyY0J6llrKnM7T4MCnfVJdOFylLMw==
+  </data>
+ </layer>
+ <layer name="Tile" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmMlqwzAQhsd0uXa9t5DcurjQvYem24P40fwoerP2E8WQhNoaRyNFoRF8zCEC/fo1I40jsnljUolMjfkWacbMR0Pbp4/fmyvmXINVrCtxN0Qt04C+Z+a8gFVcVR/RLYO3rhT/rH2y9s/ap74o5Izh+bYpfLSsjxQ+lly/nG9rpY/zbcjnVovPh5z339jh105Vv1b6SvBv8rvOX+dbhH8an9bpnybPNtU/+is38k5wOf3T6Bvq+fzoy/8O1ojpX1Q5GuNPbP5p5oT0De0xtn7/u38S2dek9i82pvYvsn9W9Tgx/klEX11n8G9bv1v/Au9vM0SoJwh9d7DGwls+9v3NObq9+P+lOs3Ut3tFh0eqxV5jfm/afsVi1HOa+riFO7iHBziBU0W+rUvfGZwXpG8Gb/AOH4X5t9zz+hwtyT9ftzuwC3uwDxdwWbC+R3gqSN8BHMIRHMMnfGXSN+ZOX+Ub8gddbWX8
+  </data>
+ </layer>
+ <layer name="light" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1TsSgkAUBdFhp25FVMA/sqK7NDoksCwzXtCn6uWdzJ3WJEmSJFV06drhzn24vVu+OdN14+aifSe6rty7aF9P18S9ivYd6Rq5Z9E+6V9L18KOhq0KexDeXPZu2nrQw9aHPQ2blalY30AP/1HY/LCr6Yv1SZL0ywqcViEc
+  </data>
+ </layer>
+ <layer name="Object" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztl7dOA0EURbe3vwB+bhr8BaYwIJIpCCK6IIiwdkuSoCNpoCP1pJ70ExxB8xA7I43TG6w90mn87NFda+fObpLk9BIDWNIO4aGMg9ohPFRxSjnDKI7hOE7gpJitYE0hk2QeF3ARl3BZzOrY0Agl2MQt3MYdTMXsCI8VMkl2cQ/38QAPxewSrzRCCU7wFM/wHC/ELIZ+ucYbvMU7vBezGPrlAR/xCZ/xRcxi6JdXfMN3/MBPMYuhX3zE0C8+CljUDuGhD/u1Q+Q0xUiSmKzPm+lkvm/oSUMXGfa7aTjWDmHYsUZIJ5PDssct12T4naEvDZ1k6m3IN+RYI6ST+a8seWyrWbKoOPKFdDLXYasdyucipJO5D2y5y/lC9kfp596zHYzzhxieWXzE8MziI5ZnFs7WtPD7deObkP3hWqMdcO6nxRbXlmtwHlk639KrttLlPZPzf5jGGZzFOeUsWcSebxXXcB03lLPk5PQSX9dBXhU=
+  </data>
+ </layer>
+ <objectgroup name="Monster">
+  <object id="1" name="Monster_1" x="825" y="165" width="10" height="10"/>
+  <object id="2" name="Monster_2" x="1425" y="165" width="10" height="10"/>
+  <object id="3" name="Monster_3" x="1725" y="715" width="10" height="10"/>
+  <object id="4" name="Monster_4" x="1125" y="715" width="10" height="10"/>
+  <object id="6" name="Monster_5" x="725" y="815" width="10" height="10"/>
+  <object id="7" name="Monster_6" x="1225" y="1415" width="10" height="10"/>
+  <object id="8" name="Monster_7" x="525" y="1065" width="10" height="10"/>
+  <object id="9" name="Monster_8" x="425" y="1265" width="10" height="10"/>
+  <object id="10" name="Monster_9" x="1525" y="1165" width="10" height="10"/>
+  <object id="11" name="Monster_10" x="1625" y="1015" width="10" height="10"/>
+ </objectgroup>
+</map>

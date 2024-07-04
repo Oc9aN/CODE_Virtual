@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="50" tileheight="50" nextobjectid="1">
+ <tileset firstgid="1" name="TileLayer" tilewidth="50" tileheight="50" tilecount="144" columns="12">
+  <image source="Map/TileLayer.png" width="600" height="600"/>
+ </tileset>
+ <tileset firstgid="145" name="ObjectLayer" tilewidth="50" tileheight="50" tilecount="285" columns="15">
+  <image source="Map/object/ObjectLayer.png" width="750" height="950"/>
+ </tileset>
+ <layer name="Exit" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIwDBU4l8KEjgggaNN9i9iJpuuff8DAAAAAAD2FS9tBWE=
+  </data>
+ </layer>
+ <layer name="open" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJAAAIBLGf0v1HcQI7C5EErr8EAAAAAH6roSv8AexrRrgGDQ==
+  </data>
+ </layer>
+ <layer name="BulletCollision" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2LENACEMwEBW/f2XYAP0wQQSyZZoyRUoBWPs9QXP7W75onOic+n9XXzV0sfSx9LH0sfSx9LH0sfSx9LH0sfSx9LH6ubL+Hs4OaOqj/TX9yp9rNU7qbIbuvtel7kfTpTtm1LCctA=
+  </data>
+ </layer>
+ <layer name="collisionCheak" width="40" height="40" opacity="0.32">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEKQBEUQFGbtP+tGP7Jl7geXt1TZnrdIgOlrKub9kSx75uxuk7MvnkGPfYx9jH2MfYx9jH2MfYx9jH2MfYx9jH2Mdn6Iv44oubOGPXdZh+Toe+vY+cdp3p9r8jQF/V+va4BxO4vJw==
+  </data>
+ </layer>
+ <layer name="tile" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmNEJwCAMRDNCd7H/DiB0BkdzFEerYgtSJC2xtaG9g0OEGB8n+BEiuSaisKSVc67puKJLliie8eWar/OZ5Flgc4Ev1Xhh71DlwN7xhm2VH/jABz7wgU+PwQc+8IEPfOADH/jA918+V/ZBYsfMOJyw59bX0w3isrfMuVECX5+08+X5nmnMcE1xHA7UUCsnDdnt0s6X3/j4f2l526e1AhNXb/I=
+  </data>
+ </layer>
+ <layer name="object" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzkkNgDAARcEinUUABQEsSpDGP2OAJp1J3v2VAgAAAABAz+6hPFc605H+/vna87SlmtYG/5Y8zWlKY4N/vXoBIJkP3w==
+  </data>
+ </layer>
+</map>

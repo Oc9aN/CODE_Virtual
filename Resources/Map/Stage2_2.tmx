@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="50" tileheight="50" nextobjectid="1">
+ <tileset firstgid="1" name="TileLayer" tilewidth="50" tileheight="50" tilecount="144" columns="12">
+  <image source="Map/TileLayer.png" width="600" height="600"/>
+ </tileset>
+ <tileset firstgid="145" name="ObjectLayer" tilewidth="50" tileheight="50" tilecount="285" columns="15">
+  <image source="Map/object/ObjectLayer.png" width="750" height="950"/>
+ </tileset>
+ <layer name="Exit" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJAAAIBLGf0v1HsXcAEUng+kvYUKNr/AEAAAAA8EkDnfQECQ==
+  </data>
+ </layer>
+ <layer name="BulletCollision" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztlkkOwCAMxPhq//+J3quqDUxYBmyJC0tiBYFSyjfXz5iNi190vlf+2jpFz6n1dvHrDX4a+Gngp4GfBn4a+Gngp7F7/7eq31vOLIhHvB3jZb3L0/xacPF7emT9ySou9atdG0XEb+ZdO/u17MsGP42R/emKfjeTjHDr
+  </data>
+ </layer>
+ <layer name="open" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjENADAMwLCiLH8o+4sgmmwpf2YAAABa9lRT/rtvtcf6HwAA/3jA1Qa5
+  </data>
+ </layer>
+ <layer name="collisionCheak" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmEEKwCAMBP1k//+VnguWRjfqhs6AF8FkiCLR1upzvQwXei74PXN9jZk1WedhRy3w08BPAz8N/DTw08BPAz8N1c+5/4vknfXLJjMmfj6xVsT8q1/W3eHyhsdPo7fHTn9IFeo3Mr+byn4re4Uokdz4ablP+53oVR24AWYzNSE=
+  </data>
+ </layer>
+ <layer name="Radar" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzrENAAAIw7C+zfecwNQJW8qeBLhMOX/+/Pnz58+fv29/AAAAbQuc8qop
+  </data>
+ </layer>
+ <layer name="Tile" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztl0kKAjEQRXMDBYet416hlw69cHbhfACPlqP00fyF3SAxaTV20lGq4FEQRF//qKkI8fsVgVgI+QjWZNleWcX6tcS3h6nK9kv372oi0rhEOa83vIe09aMsdugu0e0B+7Ef+7Ef+7Ef+7Hfv/qls5w0QbOb+nmvZsZ3ZkhLV91d4ylf5ZkKn0lNRfswAdMCuos7APltwLaA7sqP8/vOL+T8Pr03Zr9TX/nZFGXuKz+bIr+Q86vAo6r8h1fv67lnki+/WBjP3KSGXgcN0AQ90Bd+s83za6G3QQd0wQAMA/YLKT91LqLvaEj5ETMwBwuwBCMwDshvDw7gCE5gBdYB+53BxbOf5Znozc9l3QCJ0RXp
+  </data>
+ </layer>
+ <layer name="Object" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2McNgEAUA1FvF4QCCF0SCiAUQKgU37nD12qeNHefLeELQ5JGN7k5/b3mbfGm1W1uD7jv8KbTXe4OuA8AAAAAAADIUZGk0lWuDvjLRd/XeFPrOtcH3Je7B12QCFk=
+  </data>
+ </layer>
+</map>

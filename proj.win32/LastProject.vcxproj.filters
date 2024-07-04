@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Logo">
+      <UniqueIdentifier>{2a85f3c8-fd32-43c9-9497-bc84371b124f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Logo\ChapterSelect">
+      <UniqueIdentifier>{e4a4fee6-9595-4009-9612-6e202f9fe1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Logo\ChapterSelect\Chapter_1">
+      <UniqueIdentifier>{575d8359-65fa-4b80-9ae1-17959d5ae079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Logo\ChapterSelect\Object">
+      <UniqueIdentifier>{d310a0d3-9d4c-4bb6-a8cb-e9114963dfee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Logo\ChapterSelect\Chapter_2">
+      <UniqueIdentifier>{f382cdff-d2d5-4c28-9287-fe6665282562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Logo\ChapterSelect\Chapter_4">
+      <UniqueIdentifier>{5766f3ba-83b8-4607-bb85-815ca7f64e21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Logo.cpp">
+      <Filter>src\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ChapterSelect.cpp">
+      <Filter>src\Logo\ChapterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Credit.cpp">
+      <Filter>src\Logo\ChapterSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter1_InGame.cpp">
+      <Filter>src\Logo\ChapterSelect\Chapter_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hero.cpp">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Monster.cpp">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bullet.cpp">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Weapon.cpp">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bar.cpp">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter2_InGame.cpp">
+      <Filter>src\Logo\ChapterSelect\Chapter_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter4_BossStage.cpp">
+      <Filter>src\Logo\ChapterSelect\Chapter_4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Boss.cpp">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Function.cpp">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Chapter2_2_InGame.cpp">
+      <Filter>src\Logo\ChapterSelect\Chapter_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bullet_Position.cpp">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI.cpp">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Logo.h">
+      <Filter>src\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ChapterSelect.h">
+      <Filter>src\Logo\ChapterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Credit.h">
+      <Filter>src\Logo\ChapterSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter1_InGame.h">
+      <Filter>src\Logo\ChapterSelect\Chapter_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hero.h">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Monster.h">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bullet.h">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Weapon.h">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Singleton.h">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bar.h">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_InGame.h">
+      <Filter>src\Logo\ChapterSelect\Chapter_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter4_BossStage.h">
+      <Filter>src\Logo\ChapterSelect\Chapter_4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Boss.h">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Function.h">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Chapter2_2_InGame.h">
+      <Filter>src\Logo\ChapterSelect\Chapter_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bullet_Position.h">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI.h">
+      <Filter>src\Logo\ChapterSelect\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
